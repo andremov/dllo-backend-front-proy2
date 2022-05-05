@@ -1,12 +1,12 @@
-## Picshar
+# Picshar
 
 Desarrollen el backend para un clon de Twitter + Instagram.
 
 - La API debe satisfacer cada endpoint que está utilizando el frontend, de manera que el frontend funcione completamente. 
 - La API debe crearse como repositorio en Github y debe ser "entregada" al profesor utilizando el enlace, donde se enviará unicamente el link al repositorio. 
-- El proyecto se desarrolla en grupos de 3 personas, con fecha de entrega 1 de Junio.
+- El proyecto se desarrolla en grupos de 3 personas, con fecha de entrega 29 de Mayo 23:59.
 
-Los endpoints a desarrollar incluyen, pero no están limitados a:
+## Endpoints
 
 - [ ] Endpoint de login con usuario y contraseña
   - Debe generar un JWT de sesión
@@ -49,3 +49,38 @@ Los endpoints a desarrollar incluyen, pero no están limitados a:
 - [ ] Endpoint de guardar una publicación
 - [ ] Endpoint de comentar en una publicación
 
+
+## Pruebas Unitarias (Jest)
+
+- [ ] Login
+  - [ ] Informacion valida
+  - [ ] Informacion invalida (usuario no existe)
+  - [ ] Informacion invalida (contraseña incorrecta)
+- [ ] Registro
+  - [ ] Informacion completa
+  - [ ] Informacion incompleta
+
+
+- [ ] Informacion de Usuario
+  - [ ] Contraseña y fecha de cumpleaños no incluida en el response
+  - [ ] Numero de publicaciones del usuario refleja el numero correcto
+  - [ ] Numero de publicaciones que le gustan al usuario refleja el numero correcto
+  - [ ] Numero de seguidores refleja el numero correcto
+  - [ ] Numero de seguidos refleja el numero correcto
+
+
+- [ ] Lista de seguidores de un usuario
+- [ ] Lista de seguidos de un usuario
+- [ ] Solicitar seguir
+- [ ] Aceptar solicitud
+  - [ ] Aceptar solicitud previamente aceptada o rechazada
+- [ ] Rechazar solicitud
+  - [ ] Rechazar solicitud previamente aceptada o rechazada
+
+
+- [ ] Dar me gusta a publicacion
+- [ ] Publicaciones "gustadas" por un usuario
+- [ ] Guardar publicacion
+- [ ] Publicaciones guardadas por un usuario
+- [ ] Comentar publicacion
+- [ ] Comentarios de una publicacion
