@@ -53,7 +53,7 @@ Desarrollen el backend para un clon de Twitter + Instagram.
   - Solo está permitido para el usuario mismo
   - Metodo: GET
   - Ruta: '/posts/saved-by'
-  - Query: { user_id }
+  - Query: { }
   - Response: { posts }
 - [ ] Endpoint de usuarios seguidos por un usuario
   - Solo está permitido si el usuario esta siguiendo al usuario, a menos que sea el usuario mismo
@@ -87,7 +87,7 @@ Desarrollen el backend para un clon de Twitter + Instagram.
   - Debe ser paginada
   - Metodo: GET
   - Ruta: '/posts/timeline'
-  - Body: { user_id }
+  - Body: { page }
   - Response: { posts }
 
 
