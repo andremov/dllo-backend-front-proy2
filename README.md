@@ -117,7 +117,7 @@ Desarrollen el backend para un clon de Twitter + Instagram.
   - Response: {  }
 - [ ] Endpoint de comentar en una publicación
   - Metodo: POST
-  - Ruta: '/posts/'
+  - Ruta: '/posts/comment'
   - Body: { post_id, comment }
   - Response: {  }
 
